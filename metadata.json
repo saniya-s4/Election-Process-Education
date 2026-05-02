@@ -1,0 +1,6 @@
+{
+  "name": "Matadhikar: Indian Election Guide",
+  "description": "An interactive assistant for the Indian election process, featuring state-specific regulations, timelines, multilingual support, and educational quizzes.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["Multilingual Assistant", "Interactive Timelines", "Polls & Quizzes", "Voice Interface"]
+}
