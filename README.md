@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Matadhikar AI 🗳️ - Indian Election Guide
 
-# Run and deploy your AI Studio app
+## 💡 Inspiration
+Millions of Indian voters don't know how to register or participate 
+in elections. I built Matadhikar AI to make election information 
+accessible to everyone in their own language.
 
-This contains everything you need to run your app locally.
+## 🚀 What it does
+An AI-powered multilingual chatbot that helps Indian voters with:
+- Voter registration process
+- Election timelines and dates
+- State-specific regulations
+- ECI guidelines and documents needed
 
-View your app in AI Studio: https://ai.studio/apps/4cfdd9c5-0b65-44c7-afb4-01bb0a5689a3
+## 🛠️ Tech Stack
+- React + TypeScript + Vite
+- Google Gemini API (gemini-3-flash)
+- Tailwind CSS + Framer Motion
+- GitHub Pages
 
-## Run Locally
+## ⚡ Challenges I faced
+- Configuring Gemini API key for browser environment
+- Vite build optimization for production deployment
+- Supporting multiple Indian languages seamlessly
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🏆 Built for
+Google Prompt Wars Hackathon
