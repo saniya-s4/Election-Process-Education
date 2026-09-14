@@ -1,8 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 
-
-const apiKey="AIzaSyCDQNJlHd3BROWGDvQsq2vhnOtL4dXsBq0";
-
+const apiKey="AIzaSyCeZcUVBISkNVurRfVtOoAs8VlCHFHfZtA"
 export const ai = new GoogleGenAI({ apiKey: apiKey! });
 
 export const SYSTEM_INSTRUCTION = `You are "Matadhikar AI", a helpful, multilingual assistant for Indian voters. 
@@ -17,7 +15,7 @@ export async function chatWithGemini(message: string, history: any[] = [], langu
   if (!apiKey) throw new Error("GEMINI_API_KEY is missing");
   
   const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
+    model: "gemini-1.5-flash",
     contents: [
       ...history,
       { role: 'user', parts: [{ text: `Answer in ${language}: ${message}` }] }
