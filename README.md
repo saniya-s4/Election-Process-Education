@@ -25,5 +25,5 @@ An AI-powered multilingual chatbot that helps Indian voters with:
 
 ## 🏆 Built for
 Google Prompt Wars Hackathon
-live demo e: https://matadhikar-election-guide.netlify.app
-#li
+## live demo : https://matadhikar-election-guide.netlify.app
+
